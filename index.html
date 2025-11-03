@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Carlos Luna</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script type="module" src="/src/main.js"></script>
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <img src="/src/assets/Imagen de WhatsApp 2025-10-06 a las 20.51.54_135f630a.jpg" alt="Foto de Carlos Luna" class="profile-img">
+            <h1 class="title">Carlos Luna</h1>
+            <p class="subtitle">Desarrollador Web | Apasionado por crear soluciones digitales modernas</p>
+        </header>
+
+        <nav class="nav">
+            <a href="#about" class="nav-link">Sobre mí</a>
+            <a href="#projects" class="nav-link">Proyectos</a>
+            <a href="#contact" class="nav-link">Contacto</a>
+        </nav>
+
+        <main class="main">
+            <section id="about" class="section">
+                <h2 class="section-title">Sobre mí</h2>
+                <p class="section-text">
+                    Soy un desarrollador web con experiencia en HTML, CSS, JavaScript y frameworks modernos. 
+                    Me apasiona crear sitios web funcionales, atractivos y accesibles, siempre enfocados en 
+                    la experiencia del usuario. Me gusta trabajar en proyectos que combinen creatividad con 
+                    tecnología para resolver problemas reales.
+                </p>
+            </section>
+
+            <section id="projects" class="section">
+                <h2 class="section-title">Proyectos</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Proyecto 1</h3>
+                            <p class="project-description">
+                                Plataforma web para gestión de tareas con funcionalidades modernas y diseño responsivo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Proyecto 2</h3>
+                            <p class="project-description">
+                                Aplicación web de comercio electrónico con carrito de compras y pasarela de pagos integrada.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Proyecto 3</h3>
+                            <p class="project-description">
+                                Portafolio interactivo personal utilizando animaciones y diseño moderno en CSS y JS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <h2 class="section-title">Contacto</h2>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" id="name" class="form-input" placeholder="Nombre" required>
+                    <input type="email" id="email" class="form-input" placeholder="Correo electrónico" required>
+                    <textarea id="message" class="form-textarea" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+                    <button type="submit" class="form-button">Enviar</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            &copy; 2025 Carlos Luna. Todos los derechos reservados.
+        </footer>
+    </div>
+</body>
+</html>
